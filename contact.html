@@ -4,13 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harshal Jain | Home</title>
+    <title>Harshal Jain | Contact</title>
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/navbar.css" />
-    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/footer.css">
-
 </head>
 
 <body>
@@ -29,10 +28,10 @@
 
                 <div class="nav">
                     <ul>
-                        <li><a href="./index.html" class="active">Home</a></li>
+                        <li><a href="./index.html">Home</a></li>
                         <li><a href="./about.html">About</a></li>
                         <li><a href="./project.html">Project</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./contact.html" class="active">Contact</a></li>
 
                     </ul>
                 </div>
@@ -40,19 +39,27 @@
         </div>
     </nav>
 
-    <div class="home">
-        <div class="left">
-            <h2>Hello I am</h2>
-            <h1>Harshal Jain</h1>
+    <div class="contact">
+        <div class="pg">
+            <h1>Contact Me</h1>
+            <p>If you have any questions or would like to work together, feel free to get in touch!</p>
 
         </div>
-        <div class="right">
-            <img src="./assets/hj_mainimg.png" />
-        </div>
+        <div class="form-container">
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
 
+                <label for="reason">Reason:</label>
+                <textarea id="reason" name="reason" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </div>
     </div>
 
-
+    
     <footer class="footer">
         <div class="footer1">
             <p>
@@ -79,8 +86,6 @@
 
     </footer>
 </body>
-
 <script src="./js/navbar.js"></script>
-<script src="./js/homescript.js"></script>
 
 </html>

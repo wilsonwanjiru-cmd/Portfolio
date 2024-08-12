@@ -33,3 +33,25 @@ ul {
 
 
 /* TODO : later on add more things here */
+.pg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pg h1 {
+    font-size: 2.5em;
+    color: var(--secondary-color);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.pg p {
+    font-size: 1.2em;
+    color: #666;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
