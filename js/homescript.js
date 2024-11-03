@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', (event) => {
-    let text = ["Harshal Jain", "a Full Stack Developer", "a mentor at GeeksForGeeks"];
+    let text = ["Wilson Wanjiru", "a Full Stack Developer", "a mentor at Prime Caotings LTD"];
 
     let count = 0;
     let index = 0;
